@@ -1,0 +1,70 @@
+.divForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    width: 600px;
+    height: 600px;
+    background-color: bisque;
+    box-shadow: 2px 3px 2px 2px  rgb(107, 84, 57);
+}
+
+h1{
+    padding: 5px;
+    font-size: 2rem;
+}
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(253, 208, 154);
+    box-shadow: 2px 3px 2px 2px  rgb(107, 84, 57);
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    height: 15vh;
+    width: 100%;
+}
+.ligne{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex: row;
+}
+label{
+    width:300px ;
+}
+input {
+    /* display: flex; */
+    /* flex-direction: column; */
+    font-size: 18px;
+    margin: 3vh;
+    border-radius: 5px;
+    box-shadow: 0px 6px 3px  #605e7e;
+}
+
+.button{
+    align-items: center;
+    justify-content: center;
+    background-color: bisque;
+    box-shadow: 0px 6px 3px  #605e7e;
+    border-radius: 5px;
+    width: 125px;
+    margin: 3vh;
+}
+.button:hover{
+    background-color: rgba(253, 208, 154, 0.52);
+    border: 1px solid bisque;
+}
+.erreur{
+    display: flex;
+    justify-content: end;
+    margin-right: 2vh;
+    color: red;
+
+}
